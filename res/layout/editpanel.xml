@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popupwindow"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlebg"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Edit"
+            android:textColor="#ffffff"
+            android:textSize="25.0dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="30.0dip"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/delete"
+            android:layout_marginTop="4.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="Close"
+            android:textColor="#ffffff"
+            android:textSize="17.0dip"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="5.0dip"
+        android:text="@string/titleTextView"
+        android:textSize="25.0dip"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:maxLines="3"
+        android:textSize="25.0dip" >
+    </EditText>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:text="@string/descriptionTextView"
+        android:textSize="25.0dip"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editdescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:maxLines="10"
+        android:textSize="25.0dip" >
+    </EditText>
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40.0dip"
+        android:layout_gravity="right"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginRight="20.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/button"
+        android:text="Confirm"
+        android:textColor="#ffffff"
+        android:textSize="25.0dip"
+        android:textStyle="bold" />
+
+</LinearLayout>

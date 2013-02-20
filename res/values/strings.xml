@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AudioGeotagger</string>
+    <string name="menu_settings">Settings</string>
+    <string name="audio">Interviews</string>
+    <string name="search">Search</string>
+    <string name="create">Create</string>
+    <string name="createInterview">Create New Interview</string>
+    <string name="existingInterview">Existing Interviews</string>
+    <string name="titleTextView">Interview title (required):</string>
+    <string name="descriptionTextView">Interview description:</string>
+    <string name="recordTextView">Start</string>
+    <string name="saveTextView">Save</string>
+    <string name="saveAudio">Save the Interview</string>
+    <string name="previewButton">Preview</string>
+    <string name="saveButton">Save</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="undoButton">Undo</string>
+    <string name="searchHint">Search Maps</string>
+    <string name="imageDescription">app icon</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="overview">Overview</string>
+
+</resources>

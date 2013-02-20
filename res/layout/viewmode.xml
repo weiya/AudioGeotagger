@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/standardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Standard"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="15.0dip"
+        android:textSize="25.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/satelliteView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satellite"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="15.0dip"
+        android:textSize="25.0dip"
+        android:textStyle="bold" />
+
+</LinearLayout>

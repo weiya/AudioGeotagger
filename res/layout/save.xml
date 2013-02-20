@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dce1eb"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#003399" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/saveAudio"
+            android:textColor="#ffffff"
+            android:textSize="30.0dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15.0dip"
+        android:background="@drawable/savebg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:text="@string/titleTextView"
+            android:textSize="25.0dip"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/saveTitleText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:maxLines="3"
+            android:textSize="25.0dip" >
+        </EditText>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5.0dip"
+            android:text="@string/descriptionTextView"
+            android:textSize="25.0dip"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/saveDescriptionText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:maxLines="8"
+            android:textSize="25.0dip" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/previewButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/button"
+            android:onClick="previewButton"
+            android:text="@string/previewButton"
+            android:textColor="#ffffff"
+            android:textSize="25.0dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/button"
+            android:onClick="saveButton"
+            android:text="@string/saveButton"
+            android:textColor="#ffffff"
+            android:textSize="25.0dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/button"
+            android:onClick="cancelButton"
+            android:text="@string/cancelButton"
+            android:textColor="#ffffff"
+            android:textSize="25.0dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
